@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAD8DD"
+    android:backgroundTint="#AAD8DD"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imgbtn_FruitsandVeggies"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt_ToddlerTeacher"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/banana" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_Animals"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt_ToddlerTeacher"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/imgbtn_FruitsandVeggies"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cat" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_HumanBody"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt_ToddlerTeacher"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/imgbtn_Animals"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/girl" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_Alphabet"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgbtn_FruitsandVeggies"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/alphabet" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_Numbers"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgbtn_FruitsandVeggies"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/imgbtn_Alphabet"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/numbers" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_ColorsandShapes"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgbtn_FruitsandVeggies"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/imgbtn_Numbers"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shapes" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_DailyObjects"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgbtn_Numbers"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/plane" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_StoryBook"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgbtn_DailyObjects"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/booksicon" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_Badges"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgbtn_DailyObjects"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#AAD8DD"
+        android:scaleType="fitCenter"
+        android:src="@drawable/badgeicon" />
+
+    <TextView
+        android:id="@+id/txt_ToddlerTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/chewy"
+        android:padding="15dp"
+        android:text="Toddler Teacher"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

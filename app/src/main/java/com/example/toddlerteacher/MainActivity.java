@@ -2,6 +2,7 @@ package com.example.toddlerteacher;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -34,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         imbtnFruitsVeggies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                //Go to fruits and vegetables page
+                Intent fandVpage=new Intent(MainActivity.this, FruitsandVegatables.class);
+                startActivity(fandVpage);
             }
         });
 
